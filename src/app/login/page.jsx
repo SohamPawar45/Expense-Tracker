@@ -56,6 +56,7 @@ export default function Login() {
           >
             Login
           </button>
+          <a href="/" className="block text-center mt-2 text-gray-300 hover:text-white">Back</a>
         </form>
       </div>
     </div>

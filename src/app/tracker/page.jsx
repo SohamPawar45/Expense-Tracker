@@ -1,10 +1,11 @@
 import { addExpenseAction, getExpenses } from "@/app/actions/expenseActions";
+import Login from "../login/page";
 
 export default async function Tracker() {
   const expenses = await getExpenses();
 
   const total = expenses.reduce(
-    (sum, item) => sum + Number(item.amount),
+    (sum, item) => sum + Number(item.amount),   
     0
   );
 

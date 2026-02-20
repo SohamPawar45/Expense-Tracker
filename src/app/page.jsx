@@ -8,7 +8,7 @@ export default function Home() {
       <nav className="flex justify-between items-center px-8 py-5">
         <h1 className="text-2xl font-bold">💰 Paisa Bachao</h1>
         <Link
-          href="/tracker"
+          href="/login"
           className="bg-indigo-500 hover:bg-indigo-600 px-4 py-2 rounded-lg transition"
         >
           Launch App
